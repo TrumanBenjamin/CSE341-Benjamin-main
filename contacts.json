@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Truman",
+      "lastName": "Benjamin",
+      "email": "test@test.com",
+      "favoriteColor": "Blue",
+      "birthday": "12/12/20"
+    },
+    "contact2": {
+        "firstName": "Donald",
+        "lastName": "Trump",
+        "email": "dtrump@test.com",
+        "favoriteColor": "Red",
+        "birthday": "12/12/78"
+      },
+    "contact3": {
+      "firstName": "Harry",
+      "lastName": "Truman",
+      "email": "htruman@test.com",
+      "favoriteColor": "Maroon",
+      "birthday": "12/12/76"
+    }
+}
