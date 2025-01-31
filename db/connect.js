@@ -11,7 +11,7 @@ const initDb = (callback) => {
   }
   MongoClient.connect(process.env.MONGODB_URI)
     .then((client) => {
-      _db = client.db('TrumanBenjamin');
+      _db = client;
       callback(null, _db);
     })
     .catch((err) => {
@@ -23,10 +23,10 @@ const getDb = () => {
   if (!_db) {
     throw Error('Db not initialized');
   }
-  return _db;
+  return _db; 
 };
 
 module.exports = {
   initDb,
-  getDb,
+  getDb
 };

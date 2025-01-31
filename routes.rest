@@ -1,3 +1,5 @@
+
+# LOCALHOST
 GET http://localhost:8080/
 
 GET http://localhost:8080/contacts
@@ -9,4 +11,6 @@ POST http://localhost:8080/contacts
 PUT http://localhost:8080/contacts/678af090ef767f68a1cd105d
 
 DELETE http://localhost:8080/contacts/678af0adef767f68a1cd105e
+
+# PRODUCTION 
 
