@@ -20,14 +20,14 @@ GET https://cse341-benjamin-main.onrender.com/contacts/678af063ef767f68a1cd105c
 # Create contact
 POST https://cse341-benjamin-main.onrender.com/contacts HTTP/1.1 content-type: application/json
 {
-    "firstName":"Bruno", "lastName":"Mars", "email":"marsb@test.com", "favoriteColor":"Orange", "birthday":"06/19/1992"
+"firstName":"Bruno", "lastName":"Mars", "email":"marsb@test.com", "favoriteColor":"Orange", "birthday":"06/19/1992"
 }
 
 PUT https://cse341-benjamin-main.onrender.com/contacts/678af090ef767f68a1cd105d HTTP/1.1 content-type: application/json
 {
-    "firstName":"Harry", "lastName":"Truman", "email":"htruman@test.com", "favoriteColor":"Maroon", "birthday":"12/12/76"
+    "firstName":"Harry", "lastName":"Truman", "email":"htruman@test.com", "favoriteColor":"Maroon", "birthday":"12/12/76" 
 }
 
-### DELETE contact DELETE https://cse341-benjamin-main.onrender.com/contacts/678af0adef767f68a1cd105e HTTP/1.1
+### DELETE contact DELETE https://cse341-benjamin-main.onrender.com/contacts/678af0adef767f68a1cd105e HTTP/1.1 
 
 
