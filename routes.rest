@@ -14,3 +14,14 @@ DELETE http://localhost:8080/contacts/678af0adef767f68a1cd105e
 
 # PRODUCTION 
 
+GET https://cse341-benjamin-main.onrender.com/
+
+GET https://cse341-benjamin-main.onrender.com/contacts
+
+GET https://cse341-benjamin-main.onrender.com/contacts/678af063ef767f68a1cd105c
+
+POST https://cse341-benjamin-main.onrender.com/contacts
+
+PUT https://cse341-benjamin-main.onrender.com/contacts/678af090ef767f68a1cd105d
+
+DELETE https://cse341-benjamin-main.onrender.com/contacts/678af0adef767f68a1cd105e
